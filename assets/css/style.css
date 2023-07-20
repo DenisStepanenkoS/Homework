@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+}
+
+a {   
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 450px;
+    position: relative;
+}
+
+header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-image: url("../../assets/images/pexels-photo-248515.png");
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+body{
+    text-align: center;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgb(51, 51, 51);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.main-h{
+    padding-top: 100px;
+    padding-left: 250px;
+    padding-right: 250px;
+    color: white;
+}
+
+.read-more-button{
+    border: 1px white solid;
+    background-color: rgb(51, 51, 51);
+    border-color: rgb(102, 102, 102);
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: inline-block;
+}
+
+.read-more-button:hover{
+    color: black;
+    background-color: white;
+}
+
+.main-info-title{
+    padding-top: 25px;
+}
+
+.main-info-text{
+    display: inline-block;
+    width: 400px;
+    margin-inline: 30px;
+}
+
+#section-short-info{
+    width: 100%;
+    background-color: rgb(234, 234, 234);
+}
+
+#section-full-info{
+    background-color: rgb(51,51,51);
+    width: 100%;
+}
+
+img{
+    object-fit: cover;
+    block-size: 200px;
+}
+
+.detailed-info{
+    display: inline-block;
+    background-color: white;
+    margin: 20px;
+    width: 300px;
+}
+
+#handle-needs{
+    background-color: white;
+    display: inline-block;
+    width: 1000px;
+    margin: 20px;
+    font-size: 16px;
+    
+}
+
+
+footer{
+    font-size: 0px;
+}
+
+#section-contact-us{
+    display: inline-block;
+    background-color: rgb(38, 144, 212);
+    color: white;
+    width: 50%;
+    font-size: 16px;
+    padding: inherit;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+#section-company-info{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    line-height: 50px;
+    margin-bottom: -50px;
+}
+
+#section-about-our-company{
+    display:inline-block;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    width: 50%;
+    font-size: 16px;
+    padding: inherit;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+#section-detailed-info-about-company{
+    background-color: black;
+}
+
+.detailed-info-about-company-box{
+    display:inline-block;
+    color: white;
+    width: 50%;
+    font-size: 20px;
+    padding: 0;
+}
+
+.traversi-media {
+    color: blue;
+}
+
+.text {
+    line-height: 25px;
+}
+
+
+
